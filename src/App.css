@@ -1,0 +1,41 @@
+body {
+  background-color: #e9ecef;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  border: none;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.25);
+  border-color: #86b7fe;
+}
+
+.btn-primary,
+.btn-success,
+.btn-warning,
+.btn-danger {
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #d39e00;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-danger:hover {
+  background-color: #b02a37;
+}
+
+.bg {
+  background-color: #9beafd;
+}
+
+.bg1 {
+  background-color: #95eea0;
+}
